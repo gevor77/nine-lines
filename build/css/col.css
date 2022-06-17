@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.projects {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #2F80ED;
+}
+
+.date {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.subtitle {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282A33;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-rigth {
+    text-align: right;
+}
+
+.col-20 {
+    position: relative;
+    width: 20%;
+    float: left;
+}
+
+.col-30 {
+    position: relative;
+    width: 30%;
+    float: left;
+}
+
+.col-40 {
+    position: relative;
+    width: 40%;
+    float: left;
+}
+
+.col-50 {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.col-25 {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.col-60 {
+    position: relative;
+    width: 60%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+    .container {
+        max-width: 1024px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    .container {
+        max-width: 650px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        margin: 0 25px;
+    }
+
+    .col-20 {
+        width: 100%;
+    }
+
+    .col-30 {
+        width: 100%;
+    }
+
+    .col-40 {
+        width: 100%;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .col-25 {
+        width: 100%;
+    }
+
+    .col-60 {
+        width: 100%;
+    }
+
+    .education {
+        width: 100% !important;
+    }
+
+    .col-res-50 {
+        width: 50% !important;
+        float: left;
+    }
+
+    .menu-btn {
+        display: block !important;
+        text-align: right;
+    }
+
+    .menu {
+        display: none
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .menu-responsive li {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .menu-responsive li a {
+        font-size: 27px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .rigth-block {
+        text-align: left;
+    }
+
+    .rigth-block .menu-img {
+        justify-content: left !important;
+    }
+}
